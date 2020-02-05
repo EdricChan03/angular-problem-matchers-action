@@ -1,0 +1,19 @@
+{
+  "name": "angular-problem-matchers-action",
+  "version": "1.0.0",
+  "description": "Adds problem matchers for workflows invoking Angular CLI commands.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EdricChan03/angular-problem-matchers-action.git"
+  },
+  "author": "Edric Chan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/EdricChan03/angular-problem-matchers-action/issues"
+  },
+  "homepage": "https://github.com/EdricChan03/angular-problem-matchers-action#readme"
+}
