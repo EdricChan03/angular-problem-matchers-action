@@ -1,0 +1,19 @@
+name: Test workflow
+on: push
+
+jobs:
+  test:
+    name: Problem matchers testing
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Setup NodeJS
+      uses: actions/setup-node@v1
+      with:
+        node-version: '10.x'
+    - name: Setup Angular problem matchers
+      uses: ./
+    - name: Test problem matchers
+      run: npm test
+      continue-on-error: true
