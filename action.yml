@@ -1,0 +1,9 @@
+name: 'Angular Problem Matchers'
+description: 'Adds problem matchers for Angular CLI commands.'
+author: 'EdricChan03'
+runs:
+  using: 'node12'
+  main: 'index.js'
+branding:
+  color: 'orange'
+  icon: 'list'
