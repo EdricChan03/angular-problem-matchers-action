@@ -6,7 +6,7 @@ function addMatcher(matcherPath) {
 
 const matchers = [
   '.github/matchers/tslint-matcher.json',
-  '.github/matchers/angular-cli-matcher.json'
+  '.github/matchers/tsc-matcher.json'
 ];
 
 matchers.forEach(matcher => {
